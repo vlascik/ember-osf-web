@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@centerforopenscience/eslint-config": "^2.0.0",
-    "@centerforopenscience/osf-style": "https://github.com/CenterForOpenScience/osf-style#ff5bd6b91cd5ef10634bf7510c2858fec2a9de6f",
+    "@centerforopenscience/osf-style": "*",
     "@ember/test-helpers": "^0.7.21",
     "@types/dropzone": "^5.0.2",
     "@types/ember": "^2.8.22",
@@ -54,13 +54,12 @@
     "ember-ajax": "^3.0.0",
     "ember-bootstrap": "^1.2.2",
     "ember-bootstrap-datepicker": "^2.0.8",
-    "ember-browserify": "^1.2.0",
     "ember-cli": "~3.1.0",
     "ember-cli-app-version": "^3.0.0",
     "ember-cli-autoprefixer": "^0.8.1",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-clipboard": "0.9.0",
-    "ember-cli-code-coverage": "https://github.com/kategengler/ember-cli-code-coverage#77b5b9201060d634d281f64a5bb7b412773a8b89",
+    "ember-cli-code-coverage": "*",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.2.1",
     "ember-cli-htmlbars": "^2.0.1",
@@ -132,6 +131,9 @@
     "tslint-eslint-rules": "^5.0.0",
     "typescript": "^2.8.3",
     "typescript-eslint-parser": "^15.0.0"
+  },
+  "devDepDis": {
+    "ember-browserify": "^1.2.0"
   },
   "engines": {
     "node": ">= 8"
